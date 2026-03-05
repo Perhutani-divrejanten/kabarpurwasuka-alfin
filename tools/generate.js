@@ -69,7 +69,7 @@ function scanLocalArticles() {
         excerpt,
         category: 'Local',
         date: new Date().toISOString().split('T')[0],
-        image: '',
+        image: 'img/logo.png',  // default image for local articles
         url: `article/${slug}.html`,
         slug,
         isLocal: true
