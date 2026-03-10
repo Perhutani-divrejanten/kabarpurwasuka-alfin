@@ -26,11 +26,12 @@ function convertGoogleDriveLink(url) {
   const driveMatch = url.match(/https:\/\/drive\.google\.com\/file\/d\/([a-zA-Z0-9_-]+)\/view/);
   if (driveMatch) {
     const fileId = driveMatch[1];
-    return `https://drive.google.com/uc?export=view&id=${fileId}`;
+    // Use thumbnail format which is more reliable for web display
+    return `https://drive.google.com/thumbnail?id=${fileId}&sz=w1000`;
   }
   
   // If it's already a direct Google Drive link, return as is
-  if (url.includes('drive.google.com/uc?export=view&id=')) {
+  if (url.includes('drive.google.com/')) {
     return url;
   }
   
