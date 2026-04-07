@@ -9,6 +9,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -16,12 +17,15 @@ jobs:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          server: ftp.wartajanten.net
+          username: deploy@wartajanten.net
           password: ${{ secrets.FTP_PASSWORD }}
+          port: 21
+          protocol: ftp
           local-dir: ./
-          server-dir: /public_html/    # sesuaikan dengan folder tujuan di cPanel
+          server-dir: /public_html/
           exclude: |
             **/.git*
             **/.git*/**
             **/node_modules/**
+            **/.github/**
