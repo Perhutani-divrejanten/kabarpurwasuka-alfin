@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', async function(){
     }
 
     try{
-        const resp = await fetch('articles.json');
+        const resp = await fetch('/articles.json');
         if (!resp.ok) throw new Error('no index');
         const data = await resp.json();
         const counts = {};
