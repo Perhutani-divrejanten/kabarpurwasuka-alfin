@@ -15,7 +15,7 @@ $stats = @{
 
 # 1. Check for old branding strings
 Write-Host "1. Checking for old branding strings..." -ForegroundColor Yellow
-$oldBrandingPatterns = @("Arah Berita", "arahberita", "arahberita", "arahberita@gmail.com")
+$oldBrandingPatterns = @("Kabar Purwasuka", "KabarPurwasuka", "KabarPurwasuka", "kabarpurwasuka@gmail.com")
 $htmlCssJsonFiles = Get-ChildItem -Path $WorkspaceRoot -Recurse -Include "*.html", "*.css", "*.json", "*.md" -File |
     Where-Object { $_.FullName -notlike "*\node_modules\*" -and $_.FullName -notlike "*\.bak.*" -and $_.FullName -notlike "*package-lock*" }
 

@@ -1,4 +1,4 @@
-﻿# Cara Upload Gambar ke Google Drive untuk Arah Berita
+﻿# Cara Upload Gambar ke Google Drive untuk Kabar Purwasuka
 
 ## Langkah-langkah Upload Gambar:
 

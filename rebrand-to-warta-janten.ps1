@@ -46,7 +46,7 @@ function Backup-File {
     }
 }
 
-Write-Log -Message "===== REBRAND Arah Berita DIMULAI ====="
+Write-Log -Message "===== REBRAND Kabar Purwasuka DIMULAI ====="
 Write-Log -Message "Root path: $WorkspaceRoot"
 
 # 1. BACKUP CRITICAL FILES

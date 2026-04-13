@@ -79,7 +79,7 @@ node generate.js
 - `content`: Isi artikel (bisa HTML atau plaintext). **Wajib** kalau excerpt kosong.
 - `author`: Penulis (opsional).
 
-## ðŸ–¼ï¸ Gambar
+## ðŸ-¼ï¸ Gambar
 
 ### Opsi 1: Local di Folder `img/` (Rekomendasi)
 1. Upload gambar ke folder `img/` (misal: `img/beritaf1.jpg`).
@@ -107,7 +107,7 @@ BizNews/
 â”œâ”€â”€ index.html
 â””â”€â”€ tools/
     â”œâ”€â”€ template-new.html       â† Template artikel (match layout website)
-    â”œâ”€â”€ generate.js             â† ðŸ¤– Skrip generator utama
+    â”œâ”€â”€ generate.js             â† ðŸ¤- Skrip generator utama
     â”œâ”€â”€ package.json
     â””â”€â”€ README.md               â† File ini
 ```

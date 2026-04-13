@@ -1,26 +1,22 @@
 ﻿{
-  "name": "arahberita-article-generator",
-  "version": "1.0.0",
-  "description": "Generator artikel otomatis dari Google Sheets untuk Arah Berita",
-  "main": "generate.js",
-  "scripts": {
-    "generate": "node generate.js",
-    "start": "node generate.js"
-  },
-  "keywords": [
-    "arahberita",
-    "generator",
-    "google-sheets",
-    "html"
-  ],
-  "author": "Arah Berita Team",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^1.6.0",
-    "handlebars": "^4.7.7"
-  }
+    "name":  "kabarpurwasuka-article-generator",
+    "version":  "1.0.0",
+    "description":  "Generator artikel otomatis dari Google Sheets untuk Kabar Purwasuka",
+    "main":  "generate.js",
+    "scripts":  {
+                    "generate":  "node generate.js",
+                    "start":  "node generate.js"
+                },
+    "keywords":  [
+                     "KabarPurwasuka",
+                     "generator",
+                     "google-sheets",
+                     "html"
+                 ],
+    "author":  "Kabar Purwasuka Team",
+    "license":  "ISC",
+    "dependencies":  {
+                         "axios":  "^1.6.0",
+                         "handlebars":  "^4.7.7"
+                     }
 }
-
-
-
-

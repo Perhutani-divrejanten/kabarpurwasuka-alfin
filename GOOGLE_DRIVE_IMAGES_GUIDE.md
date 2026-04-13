@@ -1,4 +1,4 @@
-﻿# 📸 Panduan Google Drive Images untuk Arah Berita
+﻿# 📸 Panduan Google Drive Images untuk Kabar Purwasuka
 
 ## 🎯 **Cara Agar Google Drive Images Bisa Kebaca**
 
